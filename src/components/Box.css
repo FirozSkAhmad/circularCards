@@ -1,0 +1,96 @@
+.box {
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid rgb(196, 196, 196);
+  box-shadow: 1px 1px 10px 10px gray;
+  overflow: hidden;
+}
+
+.imgContainer {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#backGround {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(253, 73, 73);
+  border-radius: 50%;
+  position: absolute;
+  left: 120px;
+  top: 15px;
+}
+
+#image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.personDetails {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.personDetails #name {
+  font-weight: 900;
+  font-size: large;
+}
+
+.personDetails #job {
+  color: grey;
+}
+
+.textContainer {
+  height: 110px;
+  margin: 0 10px;
+  margin-bottom: 10px;
+}
+
+.arrowsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  height: 20px;
+}
+
+.arrowsContainer #arrow:hover {
+  cursor: pointer;
+}
+
+.supriseContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.supriseContainer button {
+  padding: 5px 20px;
+  border-radius: 10px;
+  background-color: rgb(253, 73, 73);
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.supriseContainer button:hover {
+  cursor: pointer;
+}
